@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>College Exchange Hub</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Google font (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <!-- Replace with your logo image if you have one -->
+        <img src="images/logo.png" alt="College Exchange Hub logo" class="logo-img" onerror="this.style.display='none'">
+        <a href="index.html" class="brand">College Exchange Hub</a>
+      </div>
+
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="marketplace.html" class="nav-link">Marketplace</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="about.html" class="nav-link">About</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="upload.html" class="btn primary">+ Add Listing</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <h1 class="hero-title">Turn Your Notes, Skills, and Stuff into Pocket Money.</h1>
+        <p class="hero-sub">Affordable textbooks, notes, and student services from your campus community. Safe, simple, and student-friendly.</p>
+        <div class="hero-ctas">
+          <a href="marketplace.html" class="btn primary">Explore Marketplace</a>
+          <a href="services.html" class="btn outline">Find Services</a>
+        </div>
+        <ul class="hero-small-list">
+          <li>College-only listings</li>
+          <li>Secure payments (coming soon)</li>
+          <li>Peer-reviewed sellers</li>
+        </ul>
+      </div>
+
+      <div class="hero-right">
+        <!-- Placeholder hero image -->
+        <div class="hero-card">
+          <img src="images/hero.jpg" alt="Students sharing notes" onerror="this.style.display='none'">
+          <div class="hero-card-overlay">
+            <p><strong>Featured:</strong> Data Science Notes — ₹150</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features container">
+    <h2 class="section-title">How it helps students</h2>
+    <div class="features-grid">
+      <div class="feature">
+        <h3>Marketplace</h3>
+        <p>Buy & sell used textbooks, lab equipment and more — all within campus.</p>
+      </div>
+
+      <div class="feature">
+        <h3>Freelance Services</h3>
+        <p>Get help with diagrams, notes, or tutoring from your peers.</p>
+      </div>
+
+      <div class="feature">
+        <h3>Earn & Learn</h3>
+        <p>Turn your notes and skills into pocket money while studying.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SAMPLE LISTINGS -->
+  <section class="listings container">
+    <h2 class="section-title">Sample Listings</h2>
+    <div class="cards-grid">
+      <article class="card">
+        <img src="images/book1.jpg" alt="Book cover" onerror="this.style.display='none'">
+        <h4>Machine Learning Textbook</h4>
+        <p class="price">₹350</p>
+        <p class="card-meta">By Rohit — 2nd Year</p>
+        <a href="profile.html" class="btn small">Contact</a>
+      </article>
+
+      <article class="card">
+        <img src="images/book2.jpg" alt="Book cover" onerror="this.style.display='none'">
+        <h4>Digital Electronics Notes (PDF)</h4>
+        <p class="price">₹100</p>
+        <p class="card-meta">By Priya — 1st Year</p>
+        <a href="profile.html" class="btn small">Contact</a>
+      </article>
+
+      <article class="card">
+        <img src="images/service1.jpg" alt="Service example" onerror="this.style.display='none'">
+        <h4>Diagram Drawing (CAD)</h4>
+        <p class="price">₹200</p>
+        <p class="card-meta">By Aarav — 3rd Year</p>
+        <a href="profile.html" class="btn small">Request</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> College Exchange Hub — Made at SAKEC</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // small script just to set the year (no functionality beyond display)
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
