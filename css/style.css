@@ -1,4 +1,6 @@
 /* Basic reset and variables */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap');
+
 :root{
   --font-heading: 'Montserrat', sans-serif;
   --font-body: 'Poppins', sans-serif;
@@ -43,8 +45,8 @@ body{
 }
 
 /* logo */
-.logo { display:flex; align-items:center; gap:12px; }
-.logo-img{ width:40px; height:40px; object-fit:cover; border-radius:8px; }
+.logo { display:flex; align-items:center; gap:2px; }
+.logo-img{ width:100px; height:40px; object-fit:cover; border-radius:8px; }
 .brand { font-weight:700; color:var(--accent); text-decoration:none; font-size:18px }
 
 /* nav */
