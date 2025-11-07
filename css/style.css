@@ -1,6 +1,4 @@
 /* Basic reset and variables */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap');
-
 :root{
   --font-heading: 'Montserrat', sans-serif;
   --font-body: 'Poppins', sans-serif;
@@ -32,7 +30,7 @@ body{
 /* Header */
 .site-header{
   background: white;
-  border-bottom: 1px solid #e6edf5;
+  border-bottom: 2px solid #d4e2f2;
   position: sticky;
   top:0;
   z-index: 40;
